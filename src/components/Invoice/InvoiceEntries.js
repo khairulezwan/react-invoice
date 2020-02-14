@@ -99,10 +99,10 @@ export class InvoiceEntries extends Component {
                 <input type="text" placeholder={labels.unit} name="qtyType" value={entry.qtyType} onChange={this.handleChange.bind(this, entry, index)} />
               </td>
               <td style={{width: 100}}>
-                <input type="text" placeholder={labels.rate} name="rate" value={entry.rate} onChange={this.handleChange.bind(this, entry, index)} />
+                <input type="number"  placeholder={labels.rate} name="rate" value={entry.rate} onChange={this.handleChange.bind(this, entry, index)} />
               </td>
               <td style={{width: 100}}>
-                <input type="text" placeholder={labels.total} name="total" value={entry.total} onChange={this.handleChange.bind(this, entry, index)} />
+                <input type="number" placeholder={labels.total} name="total" value={entry.total} onChange={this.handleChange.bind(this, entry, index)} />
               </td>
               <td style={{width: 20}}><button onClick={this.handleRemove.bind(this, index)}>X</button></td>
             </tr>

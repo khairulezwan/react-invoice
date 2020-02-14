@@ -17,8 +17,8 @@ export default {
     companyRegNo: 'Not Available',
     companyVatNo: 'Not Available',
     billingBankAccountIban: 'Iban',
-    billingBankAccountBic: 'Bic',
-    billingBankAccountNo: 'Account no.',
+    paymentTerm: 'Weekly',
+    billingBankAccountNo: '7010221692',
     billingBankAccountSortCode: 'Sort code',
   },
   customer: {
